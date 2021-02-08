@@ -1,21 +1,17 @@
 {
     "docteurs": [
-        [
-            {
-                "nom": "Taylor",
-                "prenom": "John",
-                "service": "neurologie"
-            }
-        ]
+        {
+            "nom": "Taylor",
+            "prenom": "John",
+            "service": "neurologie"
+        }
     ],
     "patients": [
-        [
-            {
-                "nom": "Dupont",
-                "prenom": "Jack",
-                "age": 15,
-                "service": "neurologie"
-            }
-        ]
+        {
+            "nom": "Dupont",
+            "prenom": "Jack",
+            "age": 15,
+            "service": "neurologie"
+        }
     ]
 }
