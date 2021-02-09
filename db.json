@@ -1,7 +1,7 @@
 {
     "docteurs": [
         {
-            "id": 1,
+            "docteur_id": 1,
             "nom": "Taylor",
             "prenom": "John",
             "service": "neurologie"
@@ -13,7 +13,8 @@
             "nom": "Dupont",
             "prenom": "Jack",
             "age": 15,
-            "service": "neurologie"
+            "service": "neurologie",
+            "docteur_id": 1
         }
     ]
 }
