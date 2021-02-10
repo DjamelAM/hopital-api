@@ -14,7 +14,7 @@
             "prenom": "Jack",
             "age": 15,
             "service": "neurologie",
-            "docteur_id": 1
+            "docteurId": 1
         }
     ]
 }
