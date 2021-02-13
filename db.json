@@ -1,20 +1,20 @@
 {
-    "docteurs": [
+    "doctors": [
         {
             "id": 1,
-            "nom": "Taylor",
-            "prenom": "John",
-            "service": "neurologie"
+            "lastname": "Taylor",
+            "firstname": "John",
+            "department": "neurologie"
         }
     ],
     "patients": [
         {
             "id": 1,
-            "nom": "Dupont",
-            "prenom": "Jack",
+            "lastname": "Dupont",
+            "firstname": "Jack",
             "age": 15,
-            "service": "neurologie",
-            "docteur_id": 1
+            "department": "neurologie",
+            "doctor_id": 1
         }
     ]
 }
