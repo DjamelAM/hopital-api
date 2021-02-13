@@ -5,6 +5,18 @@
             "lastname": "Taylor",
             "firstname": "John",
             "department": "neurologie"
+        },
+        {
+            "id": 2,
+            "lastname": "Roro",
+            "firstname": "Michel",
+            "department": "pediatire"
+        },
+        {
+            "id": 3,
+            "lastname": "Cat",
+            "firstname": "Mister",
+            "department": "radiologie"
         }
     ],
     "patients": [
