@@ -13,8 +13,13 @@
             "lastname": "Dupont",
             "firstname": "Jack",
             "age": 15,
+<<<<<<< HEAD
             "department": "neurologie",
             "doctor_id": 1
+=======
+            "service": "neurologie",
+            "docteurId": 1
+>>>>>>> d676d44eb3b1d9f876d63952042654de62fd97a9
         }
     ]
 }
