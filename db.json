@@ -2,33 +2,43 @@
     "doctors": [
         {
             "id": 1,
-            "firstname": "John",
-            "lastname": "Taylor",
+            "firstName": "John",
+            "lastName": "Taylor",
             "department": "neurologie"
         },
         {
             "id": 2,
-            "firstname": "Michel",
-            "lastname": "Roro",
+            "firstName": "Michel",
+            "lastName": "Roro",
             "department": "pediatire"
         },
         {
             "id": 3,
-            "firstname": "Mister",
-            "lastname": "Cat",
+            "firstName": "Mister",
+            "lastName": "Cat",
             "department": "radiologie"
         }
     ],
     "patients": [
         {
             "id": 1,
-            "firstname": "Jack",
-            "lastname": "Dupont",
+            "firstName": "Jack",
+            "lastName": "Dupont",
             "birthYear": 1955,
             "department": "neurologie",
             "chamber": 105,
             "sexe": "Male",
             "doctorId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Michel",
+            "lastName": "Coco",
+            "birthYear": 1955,
+            "department": "cardiologie",
+            "chamber": 105,
+            "sexe": "Male",
+            "doctorId": 3
         }
     ]
 }
