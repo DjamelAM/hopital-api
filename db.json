@@ -1,44 +1,66 @@
 {
-    "doctors": [
-        {
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Taylor",
-            "department": "Neurologie"
-        },
-        {
-            "id": 2,
-            "firstName": "Michel",
-            "lastName": "Roro",
-            "department": "Pediatire"
-        },
-        {
-            "id": 3,
-            "firstName": "Mister",
-            "lastName": "Cat",
-            "department": "Radiologie"
-        }
-    ],
-    "patients": [
-        {
-            "id": 1,
-            "firstName": "Jack",
-            "lastName": "Dupont",
-            "birthYear": 1955,
-            "department": "Neurologie",
-            "chamber": 105,
-            "sexe": "Male",
-            "doctorId": 1
-        },
-        {
-            "id": 2,
-            "firstName": "Michel",
-            "lastName": "Coco",
-            "birthYear": 1955,
-            "department": "Cardiologie",
-            "chamber": 105,
-            "sexe": "Male",
-            "doctorId": 3
-        }
-    ]
+  "doctors": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Taylor",
+      "department": "Surgery"
+    },
+    {
+      "id": 2,
+      "firstName": "Michel",
+      "lastName": "Roro",
+      "department": "Cardiology"
+    },
+    {
+      "id": 3,
+      "firstName": "Mister",
+      "lastName": "Cat",
+      "department": "Neurology"
+    },
+    {
+      "id": "4",
+      "firstName": "Keylor",
+      "lastName": "Navas",
+      "department": "Radiology"
+    },
+    {
+      "id": "5",
+      "firstName": "Julie",
+      "lastName": "Larson",
+      "department": "Maternity"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "firstName": "Jack",
+      "lastName": "Dupont",
+      "birthYear": 1955,
+      "department": "Neurology",
+      "chamber": 105,
+      "sexe": "Male",
+      "doctorId": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Michel",
+      "lastName": "Coco",
+      "birthYear": 1955,
+      "department": "Maternity",
+      "chamber": 105,
+      "sexe": "Male",
+      "doctorId": 3
+    },
+    {
+      "id": 3,
+      "firstName": "Zac",
+      "lastName": "Fry",
+      "birthYear": 1995,
+      "department": "Radiology",
+      "chamber": 5,
+      "sexe": "Female",
+      "doctorId": 1
+    }
+  ]
 }
