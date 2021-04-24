@@ -19,16 +19,34 @@
       "department": "Neurology"
     },
     {
-      "id": "4",
+      "id": 4,
       "firstName": "Keylor",
       "lastName": "Navas",
       "department": "Radiology"
     },
     {
-      "id": "5",
+      "id": 5,
       "firstName": "Julie",
       "lastName": "Larson",
       "department": "Maternity"
+    },
+    {
+      "id": 6,
+      "firstName": "hyth",
+      "lastName": "tyhty",
+      "department": "Radiology"
+    },
+    {
+      "firstName": "nn",
+      "lastName": "fjfj",
+      "department": "Neurology",
+      "id": 7
+    },
+    {
+      "firstName": "Joris",
+      "lastName": "PLa",
+      "department": "Radiology",
+      "id": 8
     }
   ],
   "patients": [
@@ -40,7 +58,7 @@
       "department": "Neurology",
       "chamber": 105,
       "sexe": "Male",
-      "doctorId": 1
+      "doctorId": 3
     },
     {
       "id": 2,
@@ -50,7 +68,7 @@
       "department": "Maternity",
       "chamber": 105,
       "sexe": "Male",
-      "doctorId": 3
+      "doctorId": "5"
     },
     {
       "id": 3,
@@ -60,7 +78,67 @@
       "department": "Radiology",
       "chamber": 5,
       "sexe": "Female",
+      "doctorId": "4"
+    },
+    {
+      "id": 4,
+      "firstName": "fjgjhgj",
+      "lastName": "oui",
+      "birthYear": 2000,
+      "department": "Radiology",
+      "chamber": 200,
+      "sexe": "Male",
       "doctorId": 1
+    },
+    {
+      "id": 5,
+      "firstName": "fjgjhgj",
+      "lastName": "oui",
+      "birthYear": 2000,
+      "department": "Radiology",
+      "chamber": 10,
+      "sexe": "Female",
+      "doctorId": 2
+    },
+    {
+      "id": 6,
+      "firstName": "nn",
+      "lastName": "htj",
+      "birthYear": 1999,
+      "department": "Radiology",
+      "chamber": 20,
+      "sexe": "Male",
+      "doctorId": 1
+    },
+    {
+      "id": 7,
+      "firstName": "nn",
+      "lastName": "htj",
+      "birthYear": 1999,
+      "department": "Radiology",
+      "chamber": 20,
+      "sexe": "Male",
+      "doctorId": 3
+    },
+    {
+      "firstName": "hhh",
+      "lastName": "hhh",
+      "birthYear": 1999,
+      "department": "Radiology",
+      "chamber": 105,
+      "sexe": "Male",
+      "doctorId": 2,
+      "id": 8
+    },
+    {
+      "firstName": "oui",
+      "lastName": "nn",
+      "birthYear": 2000,
+      "department": "Radiology",
+      "chamber": 200,
+      "sexe": "Female",
+      "doctorId": 2,
+      "id": 9
     }
   ]
 }
