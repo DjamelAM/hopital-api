@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "4635c6c7-bb35-4905-ab77-8215e2f27157",
+		"name": "Hospital-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Doctor",
+			"item": [
+				{
+					"name": "Get all doctors",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/doctors",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"doctors"
+							]
+						},
+						"description": "Get all doctors"
+					},
+					"response": []
+				},
+				{
+					"name": "Get doctor 1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/doctors/1",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"doctors",
+								"1"
+							]
+						},
+						"description": "Get a specific doctor, in this case the doctor with the id 1"
+					},
+					"response": []
+				},
+				{
+					"name": "Add a doctor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n    \"firstName\": \"Conor\",\r\n    \"lastName\": \"Mbappe\",\r\n    \"department\": \"Surgery\"\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/doctors",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"doctors"
+							]
+						},
+						"description": "Add a doctor like : \r\n{\r\n    \"firstName\": \"John\",\r\n    \"lastName\": \"Taylor\",\r\n    \"department\": \"Surgery\"\r\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Update doctor 9",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n    \"firstName\": \"Conor\",\r\n    \"lastName\": \"Neymar\",\r\n    \"department\": \"Surgery\"\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/doctors/9",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"doctors",
+								"9"
+							]
+						},
+						"description": "Update a doctor like :\r\n{\r\n    \"firstName\": \"John\",\r\n    \"lastName\": \"Taylor\",\r\n    \"department\": \"Surgery\"\r\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete doctor 9",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n    \"firstName\": \"Conor\",\r\n    \"lastName\": \"Neymar\",\r\n    \"department\": \"Surgery\"\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/doctors/9",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"doctors",
+								"9"
+							]
+						},
+						"description": "Delete a doctor, in this case the 9th"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Patient",
+			"item": [
+				{
+					"name": "Get all patients",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/patients",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"patients"
+							]
+						},
+						"description": "Get all patients"
+					},
+					"response": []
+				},
+				{
+					"name": "Get patient 1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/patients/1",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"patients",
+								"1"
+							]
+						},
+						"description": "Get a specific patient, in this case patient with id=1"
+					},
+					"response": []
+				},
+				{
+					"name": "Add a patient",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \r\n        \"firstName\": \"Mike\",\r\n        \"lastName\": \"Maignant\",\r\n        \"birthYear\": 1995,\r\n        \"department\": \"Neurology\",\r\n        \"chamber\": 205,\r\n        \"sexe\": \"Male\",\r\n        \"doctorId\": 3\r\n    }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/patients",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"patients"
+							]
+						},
+						"description": "Add a patient like :\r\n    {\r\n        \r\n        \"firstName\": \"Mike\",\r\n        \"lastName\": \"Maignant\",\r\n        \"birthYear\": 1995,\r\n        \"department\": \"Neurology\",\r\n        \"chamber\": 205,\r\n        \"sexe\": \"Male\",\r\n        \"doctorId\": 3\r\n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "Update patient 10",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \r\n        \"firstName\": \"Michel\",\r\n        \"lastName\": \"Maignant\",\r\n        \"birthYear\": 1995,\r\n        \"department\": \"Neurology\",\r\n        \"chamber\": 205,\r\n        \"sexe\": \"Male\",\r\n        \"doctorId\": 3\r\n    }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/patients/10",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"patients",
+								"10"
+							]
+						},
+						"description": "Update a patient, in this case patient 10"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete patient 10",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \r\n        \"firstName\": \"Michel\",\r\n        \"lastName\": \"Maignant\",\r\n        \"birthYear\": 1995,\r\n        \"department\": \"Neurology\",\r\n        \"chamber\": 205,\r\n        \"sexe\": \"Male\",\r\n        \"doctorId\": 3\r\n    }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://limitless-dawn-75015.herokuapp.com/patients/10",
+							"protocol": "https",
+							"host": [
+								"limitless-dawn-75015",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"patients",
+								"10"
+							]
+						},
+						"description": "Delete a patient, in this case patient 10"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "https://limitless-dawn-75015.herokuapp.com/doctors",
+			"value": ""
+		},
+		{
+			"key": "https://limitless-dawn-75015.herokuapp.com/patients",
+			"value": ""
+		}
+	]
+}
